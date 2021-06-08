@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-set -x
 CONFIG=/server-secrets/openvpn-$1.conf
 while [ ! -e $CONFIG ]; do
   sleep 1
